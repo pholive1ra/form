@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="icon" type="image/x-icon" href="imagens/telecall.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href= "style.css">
+    <title>Telecall - Internet/Telefonia</title>
+</head>
+<body> 
+    <main>
+            <form>
+                <label for="fname">Nome:</label><br>
+                <input type="text" data-ls-module="charCounter" minlenght="15" maxlength="60" name="fname"  placeholder="Insira o nome" required><br>
+                <b class="ls-label-text">Mínimo 15 caractéres</b><br><br>
+                <label for="lname">Data de Nascimento:</label><br>
+                <input type="date" id="Data" name="Data" placeholder="XX/XX/XXXX" required><br>
+                <b class="ls-label-text"></b><br><br>
+                <label for="text">Sexo:</label><br>
+                <div>
+                    <label>
+                      Feminino
+                      <input id="masc" name="sexo" type="radio" value="S" required />
+                    </label>
+                  </div>
+                  <div>
+                    <label>
+                      Masculino
+                      <input id="masc" name="sexo" type="radio" value="S" required/>
+                    </label>  
+                  </div>
+                  <div>
+                    <label>
+                      Outros
+                      <input id="outros" name="sexo" type="radio" value="S" required />
+                    </label>
+                  </div>
+                  <br>
+                <label for="namemom">Nome Materno:</label></div><br>
+                <input type="text" id="namemom" minlenght="15" maxlength="60" name="namemom"  placeholder="Insira o nome da mãe" required><br>
+                <br>
+                <label for="cpf">CPF:</label><br>
+                <input type="number" id="cpf" name="cpf"  placeholder="xxx.xxx.xxx-xx" required>  <br>
+                <br>
+                <label for="phone">Telefone Celular:</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="(+55) XX XXXXX-XXXX" required><br>
+                <b class="ls-label-text"></b><br><br>
+                <label for="telfix">Telefone Fixo:</label><br>
+                <input type="tel" id="telfix" name="telfix" placeholder="(+55) XX XXXXX-XXXX" required><br>
+                <b class="ls-label-text"></b><br><br>
+                <label for="endereco">Endereço:</label><br>
+                <input type="text" id="endereco" name="endereco"  placeholder="Insira o endereço" required><br>
+                <br>
+                <label for="login">Login:</label><br>
+                <input type="password" id="login" minlenght="6" maxlength="6" name="login"  placeholder="Insira o nome de usuário" required><br>
+                <b class="ls-label-text">Limite de 6 caractéres</b><br><br>
+                <label for="senha">Senha:</label><br>
+                <input type="password" id="senha" minlenght="8" maxlength="8" name="senha"  placeholder="Insira a senha" required><br>
+                <b class="ls-label-text">Limite de 8 caractéres</b><br><br>
+                <input type="submit" value="Enviar formulário">
+                <input type="reset" value="Reiniciar">
+              
+              </form>
+            </main>
+   
+
+</body>
+</html>
